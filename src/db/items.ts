@@ -1,4 +1,18 @@
-const items = [
+export interface Item {
+  id: number;
+  qty: number;
+  title: string;
+  price: number;
+  description: string;
+  category: string;
+  image: string;
+  rating: {
+    rate: number;
+    count: number;
+  };
+}
+
+export const items: Item[] = [
   {
     id: 1,
     qty: 15,
