@@ -11,4 +11,22 @@ const getAllCategoriesArr = (arr: Item[]): string[] => {
   return allCatsArr;
 };
 
-getAllCategoriesArr(items);
+const allCatsArr: string[] = getAllCategoriesArr(items);
+
+// 3.1 sukurti funkcija atrinkti is kategoriju tik unikalias reiksmes
+console.log([1, 2, 3].includes(1));
+
+const getUniquesFromArr = (arr: string[]): string[] => {
+  const uniqueArr: string[] = [];
+  // eslint-disable-next-line no-restricted-syntax
+  for (const str of arr) {
+    if (!uniqueArr.includes(str)) {
+      uniqueArr.push(str);
+    }
+  }
+  console.log('uniqueArr ===', uniqueArr);
+  return uniqueArr;
+};
+getUniquesFromArr(allCatsArr);
+
+// getUniquesFromArr - reduce
