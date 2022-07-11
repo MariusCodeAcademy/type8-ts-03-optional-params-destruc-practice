@@ -16,5 +16,6 @@ module.exports = {
     '@typescript-eslint/comma-dangle': [2],
     'react/jsx-filename-extension': [0],
     'linebreak-style': [0],
+    'no-console': 'off',
   },
 };
