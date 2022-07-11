@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc --watch"
   },
-  "author": "Skirmatas Bauda",
+  "author": "Skirmatas Zverys",
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.14.0",

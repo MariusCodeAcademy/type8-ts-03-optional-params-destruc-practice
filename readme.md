@@ -10,3 +10,4 @@
 4. parasyti funkcija kuri is items grazina objektu masva kuriame yra id, qty,title, price ir image
 5. sukurti funkcija kuri grazina masyva su visais paveiksleliais.
    5.1 sukurti funkicja kuri patalpina paveikslelius index.html
+6.
