@@ -31,5 +31,6 @@ getUniquesFromArr(allCatsArr);
 // getUniquesFromArr - reduce
 
 // 5. sukurti funkcija kuri grazina masyva su visais paveiksleliais.
-const allImagesArr = getSinglePropertyArr(items, 'image');
+// eslint-disable-next-line import/prefer-default-export
+export const allImagesArr = getSinglePropertyArr(items, 'image');
 console.log('allImagesArr ===', allImagesArr);
