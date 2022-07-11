@@ -12,3 +12,8 @@
    5.1 sukurti funkicja kuri patalpina paveikslelius index.html
 6. Sukurti funkcija kuri grazina daugiausiai vienetu turimos prekes pavadinima, kieki, ir title
    6.1 Sukurti funkcija kuri sukuria ir pataplpina 6 to punkto preke uzduotam html tage.
+7. Sukurti funkcija kuri gauna skaiciu ir valiutos simboli.
+   7.1 padaryti valiutos simboli kaip neprivaloma parametra
+   7.2 jei valiuta nepaduoda sako kad ji yra €
+   7.2 jei gaunam pvz 1579.47 skaiciu musu funkcija turi grazinti €1,579.47
+   10000 => '€10,000.00' ir t.t.
